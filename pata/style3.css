@@ -1,0 +1,53 @@
+body {
+    background-image: url('fundo.jpg');
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container select {
+    width: 400px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="tel"],
+.container input[type="email"],
+.container input[type="date"] {
+    width: 375px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.container input[type="submit"] {
+    width: 100%;
+    background-color: rgb(238, 90, 211);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: rgb(224, 64, 194);
+}
+

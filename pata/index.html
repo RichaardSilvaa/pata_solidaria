@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pata Solidária</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      background-image: url('patasclaras.jpg');
+    }
+
+    header {
+      background-color: #ffffff;
+      color: #fff;
+      padding: 60px;
+      text-align: center;
+    }
+
+    header img {
+        position: absolute;
+        left: 55px;
+        top: 6px;
+        cursor: pointer;
+    }
+
+    header a {
+        font-family: Arial;
+        font-size: 22px;
+        color: #000000;
+    }
+
+    h1 {
+        color: #000000;
+    }
+    
+    header button {
+      background-color: #ff69dc;
+      position: absolute;
+      top: 3.5%;
+      right: 10%;
+      color: #fff;
+      border: none;
+      padding: 15px 20px;
+      font-size: 18px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    header button:hover {
+      background-color: #ff00e6;
+    }
+
+    .button-entrar {
+      background-color: #ff69dc;
+      position: absolute;
+      top: 3.5%;
+      right: 20.5%;
+      color: #fff;
+      border: none;
+      font-size: 18px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .button-anunciar {
+        background-color: #ff69dc;
+        position: absolute;
+        width: 100%;
+        top: 3.5%;
+        right: 30%;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+    .button-sobre {
+        background-color: #ff69dc;
+        position: absolute;
+        width: 100%;
+        top: 3.5%;
+        right: 50%;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .animal-card {
+      width: 20%;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      margin: 3%;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    .animal-card img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .animal-card h3 {
+      margin-top: 0;
+    }
+
+    .animal-card p {
+      margin-bottom: 10px;
+    }
+
+    .animal-card button {
+      background-color: #ff69dc;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .animal-card button:hover {
+      background-color: #ff00e6;
+    }
+    
+    footer {
+      background-color: #ffffff;
+      padding: 2px;
+    }
+
+    .redes-sociais img{
+      cursor: pointer;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    
+    <img src="logosems.png" alt="logo" width="20%" onclick="window.location.href = 'index.html'">
+
+    <div class="button-sobre">
+        <button onclick="window.location.href = 'sobre.html'">Sobre Nós</button>
+        </div>
+
+    <div class="button-anunciar">
+    <button onclick="window.location.href = 'cadastro_animal.php'">Quero Anunciar um Animal</button>
+    </div>
+    
+    <button onclick="window.location.href = 'cadastro.php'">Cadastre-se</button>
+    
+    <div class="button-entrar">
+    <button onclick="window.location.href = 'login.php'">Entrar</button>
+    </div>
+  </header>
+  
+  <center>
+    <h1>"Amor em Cada Patinha!"</h1>
+  <img src="petsrosa.jpg" class="img-fluid" alt="animais" width="100%">
+  </center>
+
+  <main>
+    <h2>Animais disponíveis para adoção:</h2>
+
+    <div class="animal-card">
+      <img src="animais/amora.jpeg" alt="Foto do Animal">
+      <h3>Amora, 4 anos</h3>
+      <p>Fêmea | Jovem | Porte Médio</p> <br>
+      <button>Adotar</button>
+    </div>
+    
+    <div class="animal-card">
+      <img src="animais/lua.jpeg" alt="Foto do Animal">
+      <h3>Lua, 3 anos</h3>
+      <p>Fêmea | Jovem</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/dito.jpeg" alt="Foto do Animal">
+      <h3>Dito, 11 anos</h3>
+      <p>Macho | Adulto | Porte Médio</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/mike.jpeg" alt="Foto do Animal">
+      <h3>Mike, 4 meses</h3>
+      <p>Macho | Filhote</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/tiffany.jpeg" alt="Foto do Animal">
+      <h3>Tiffany, 2 anos</h3>
+      <p>Fêmea | Filhote | Porte Pequeno</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/tony.jpeg" alt="Foto do Animal">
+      <h3>Tony, 3 anos</h3>
+      <p>Macho | Jovem</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/stela.jpeg" alt="Foto do Animal">
+      <h3>Stela, 2 meses</h3>
+      <p>Fêmea | Filhote</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/wolf.jpeg" alt="Foto do Animal">
+      <h3>Wolf Supremo, 100 anos</h3>
+      <p>Macho | Ancião | Porte Gigante</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/zorro.jpeg" alt="Foto do Animal">
+      <h3>Zorro, 2 meses</h3>
+      <p>Macho | Filhote</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/jully.jpeg" alt="Foto do Animal">
+      <h3>Jully, 4 anos</h3>
+      <p>Fêmea | Jovem | Porte Médio</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/perola.jpeg" alt="Foto do Animal">
+      <h3>Pérola, 6 anos</h3>
+      <p>Fêmea | Jovem | Porte Médio</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/pitoco.jpeg" alt="Foto do Animal">
+      <h3>Pitoco, 3 anos</h3>
+      <p>Fêmea | Jovem | Porte Médio</p> <br>
+      <button>Adotar</button>
+    </div>
+        
+    <div class="animal-card">
+      <img src="animais/kiara.jpeg" alt="Foto do Animal">
+      <h3>Kiara, 11 meses</h3>
+      <p>Fêmea | Filhote | Porte Pequeno</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/kenay.jpeg" alt="Foto do Animal">
+      <h3>Kenay, 4 anos</h3>
+      <p>Macho | Jovem | Porte Pequeno</p> <br>
+      <button>Adotar</button>
+    </div>
+
+    <div class="animal-card">
+      <img src="animais/fairy.jpeg" alt="Foto do Animal">
+      <h3>Fairy, ∞</h3>
+      <p>Fêmea | Mystical
+        </p> <br>
+      <button>Adotar</button>
+    </div>
+
+  </main>
+  <footer>
+    <center>
+     <img src="logopreta.png" alt="logo" width="15%">
+     <div class="redes-sociais">
+     <img src="redes.jpg" alt="redes" width="13%" onclick="window.location.href = 'https://www.instagram.com/p_pata_solidaria/?igshid=MzNlNGNkZWQ4Mg%3D%3D'"> 
+     </div> 
+     <h4>Todos os direitos reservados.</h4>
+  </center>
+  </footer>
+</body>
+</html>
