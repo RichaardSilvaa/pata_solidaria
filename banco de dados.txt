@@ -1,0 +1,26 @@
+create database cadastro;
+use cadastro;
+
+create table usuarios(
+id int primary key auto_increment,
+nome varchar(120) not null,
+cpf varchar(15) unique not null,
+email varchar(120) unique not null,
+tel varchar(15) unique not null,
+datanasc date not null,
+senha varchar(15) not null,
+adotar varchar(120),
+anunciar varchar(120)
+);
+
+create table animais(
+id int primary key auto_increment,
+nome varchar(120) not null,
+especie varchar(50) not null,
+idade varchar(50) not null,
+porte varchar(50) not null,
+sexo varchar(10) not null
+);
+
+select * from usuarios;
+select * from animais;
