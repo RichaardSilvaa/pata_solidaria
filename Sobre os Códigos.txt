@@ -1,0 +1,63 @@
+Sobre os Códigos
+
+"index.html":
+
+é a pág principal do site.
+tem o css incluído no html (pela tag "style").
+
+usamos a tag header pra fazer o cabeçalho da página, dentro dele tem tudo que tem nessa parte do site. 
+nos botões do cabeçalho usamos o "onclick" pra redirecionar pra outra página ao ser clicado.
+
+separamos tudo usando o div, pra ficar mais organizado e mais fácil de personalizar.
+(os quadradinhos com os animais foram feitos assim).
+
+pro final dá página usamos a tag footer, pra fazer o rodapé do site, onde tem nossa logo e as redes sociais, que apertando leva pro nosso instagram.
+
+"sobre.html":
+
+aqui é a página do sobre o nosso projeto, que pode ser acessada apertando no botão "sobre nós".
+basicamente é igual a outra (no cabeçalho e no rodapé) só muda que contém informações sobre o nosso projeto.
+
+"conexao.php":
+
+estabelece a conexão com o banco de dados.
+
+"cadastro.php":
+
+página de cadastro do usuário, acessada pelo botão "cadastre-se".
+
+Nela, utilizamos também javascript pra colocar as máscaras no cpf e no telefone (que é pra quando a pessoa digitar ele já colocar os pontos, parênteses e traços automaticamente).
+
+todo o estilo da página foi feito com CSS no arquivo "style.css".
+
+Esse cadastro está sendo processado no "processar_cadastro.php".
+
+"processar_cadastro.php":
+
+primeiramente tem a conexão com o banco e depois a função de inserir no nosso banco de dados.
+
+caso dê tudocerto ele encaminha o usuário para página de login (por questões de segurança) e caso dê errado ele reinicia a página de cadastro.
+
+"login.php":
+
+base da nossa página de login.
+
+todo o estilo da página foi feito com CSS no arquivo "style2.css".
+
+esse login é processado no "validar.php".
+
+"validar.php":
+
+novamente a conexão com o banco.
+
+ele vai fazer um select no banco procurando se há algum email e senha cadastrado igual ao que o usuário acabou de colocar na tela de login.
+
+usamos o if/else pra dizer que, se caso houver algum resultado, ele encaminhe a pessoa de volta pra tela principal do site e caso não houver, ele mostre a mensagem de usuário ou senha inválidos.
+
+"cadastro_animal.php":
+
+aqui é a página de cadastro do animal, basicamente possui a mesma lógica das outras.
+
+está sendo processada no "adicionar_animal.php".
+
+todo o estilo da página foi feito com CSS no arquivo "style3.css".
